@@ -4,60 +4,120 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Website Developer | Jobner, Jaipur</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ✅ Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EC0KKXR7ZE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EC0KKXR7ZE');
+  </script>
+  <!-- ✅ End Google Analytics -->
+
   <link rel="stylesheet" href="index.css">
   <style>
-    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;color:#222}
-    .hero{padding:40px;text-align:center;background:#ffffff}
-    .btn{display:inline-block;margin:10px;padding:12px 18px;border-radius:8px;text-decoration:none;border: 3px solid #111}
-    .section{padding:28px 16px;max-width:900px;margin:0 auto}
-    .box2{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-    .box1{flex:1 1 260px;border:1px solid #000000;padding:14px;border-radius:8px}
-    footer{text-align:center;padding:18px;font-size:14px;color:#666}
-    table{width:100%;border-collapse:collapse;margin-top:20px}
-    th,td{padding:12px;border:1px solid #ddd;text-align:left}
-    th{background:#3949ab;color:white}
-    tr:nth-child(even){background:#e8eaf6}
-    input,textarea{width:100%;padding:10px;margin-bottom:10px;border:1px solid #ccc;border: radius 30px;}
-    button{background:#3949ab;color:white;padding:10px 20px;border:none;border-radius:8px;cursor:pointer;font-weight:bold}
-  </style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;color:#222}
+.hero{padding:40px;text-align:center;background:#ffffff}
+.btn{display:inline-block;margin:10px;padding:12px 18px;border-radius:8px;text-decoration:none;border: 3px solid #111;transition:0.3s}
+.btn:hover{background:#111;color:#fff}
+
+
+.section{padding:28px 16px;max-width:900px;margin:0 auto}
+.box2{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+
+
+/* 🔥 HOVER EFFECT ENABLED */
+.box1{
+flex:1 1 260px;
+border:1px solid #ff0000;
+padding:14px;
+border-radius:12px;
+background:#73e3ff;
+transition:all .3s ease;
+}
+.box1:hover{
+transform:translateY(-8px) scale(1.03);
+box-shadow:0 12px 25px rgb(255, 110, 248);
+border-color:#525252;
+}
+
+
+footer{text-align:center;padding:18px;font-size:14px;color:#666}
+table{width:100%;border-collapse:collapse;margin-top:20px}
+th,td{padding:12px;border:1px solid #ddd;text-align:left}
+th{background:#3949ab;color:white}
+tr:nth-child(even){background:#e8eaf6}
+input,textarea{width:100%;padding:10px;margin-bottom:10px;border:1px solid #ccc;border-radius: 8px;}
+button{background:#3949ab;color:white;padding:10px 20px;border:none;border-radius:8px;cursor:pointer;font-weight:bold}
+</style>
 </head>
 <body>
   <header class="hero">
-    <h1>आपकी दुकान की वेबसाइट — जल्दी और सस्ती</h1>
-    <p>मोबाइल-friendly वेबसाइट, Google Maps, और WhatsApp बटन के साथ।</p>
-    <a class="btn" href="https://wa.me/918000734825?text=Namaste%20ji,%20mujhe%20website%20chahiye" target="_blank">WhatsApp पर संपर्क करें</a>
-    <a class="btn" href="mailto:vijendrakumar@email.com">ई-मेल भेजें</a>
-  </header>
+  <h1>हर बिज़नेस के लिए डिजिटल पहचान</h1>
+  <p>मोबाइल-friendly वेबसाइट, Google Maps, और WhatsApp बटन के साथ।</p>
+
+  <a class="btn" href="https://wa.me/918000734825?text=Namaste%20ji,%20mujhe%20website%20chahiye" target="_blank">
+    <i class="fab fa-whatsapp"></i> WhatsApp पर संपर्क करें
+  </a>
+
+  <a class="btn" href="mailto:vijendrakumar@email.com">
+    <i class="fas fa-envelope"></i> ई-मेल भेजें
+  </a>
+</header>
+
 
   <section class="section">
-    <h2>हम क्या करते हैं</h2>
-    <div class="box2">
-      <div class="box1">
-        <h2>1-पेज दुकान वेबसाइट</h2>
-        <p>मेन्यू, समय, लोकेशन और संपर्क बटन के साथ।</p>
-      </div>
-      <div class="box1">
-        <h2>Google Maps + SEO</h2>
-        <p>लोग आपके पास आसानी से पहुंचें — Google पर दिखना ज़रूरी।</p>
-      </div>
-      <div class="box1">
-        <h2>ऑनलाइन ऑर्डर/फ़ॉर्म</h2>
-        <p>ग्राहक सीधे ऑर्डर/क्वेरी भेज सकें।</p>
-      </div>
+  <h2><i class="fas fa-briefcase"></i> हम क्या करते हैं</h2>
+
+  <div class="box2">
+
+    <div class="box1">
+      <h2><i class="fas fa-store"></i> 1-पेज दुकान वेबसाइट</h2>
+      <p>मेन्यू, समय, लोकेशन और संपर्क बटन के साथ।</p>
     </div>
-  </section>
+
+    <div class="box1">
+      <h2><i class="fas fa-map-marked-alt"></i> Google Maps + SEO</h2>
+      <p>लोग आपके पास आसानी से पहुंचें — Google पर दिखना ज़रूरी।</p>
+    </div>
+
+    <div class="box1">
+      <h2><i class="fas fa-shopping-cart"></i> ऑनलाइन ऑर्डर/फ़ॉर्म</h2>
+      <p>ग्राहक सीधे ऑर्डर/क्वेरी भेज सकें।</p>
+    </div>
+
+  </div>
+</section>
+
 
   <section class="section" style="background:#ffffff">
-    <h2>पैकेज (सुझाव)</h2>
-    <div class="box2">
-      <div class="box1"><h2>Basic</h2><p>₹399 — 1-page, WhatsApp लिंक, 2,3,4,5 फोटो</p></div>
-      <div class="box1"><h2>Standard</h2><p>₹699 — Basic + Google Maps + Contact Form</p></div>
-      <div class="box1"><h2>Pro</h2><p>₹999 — Standard + Online Order Setup + 1 month support</p></div>
-    </div>
-  </section>
+  <h2><i class="fas fa-tags"></i> पैकेज (सुझाव)</h2>
 
-  <!-- 🔹 Added: Google Site vs Professional Website Section -->
-  <section class="section" style="background: linear-gradient(135deg, #f3f4f6, #ffffff); border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+  <div class="box2">
+
+    <div class="box1">
+      <h2><i class="fas fa-leaf"></i> Basic</h2>
+      <p>₹399 — 1-page, WhatsApp लिंक, 2-5 फोटो</p>
+    </div>
+
+    <div class="box1">
+      <h2><i class="fas fa-bolt"></i> Standard</h2>
+      <p>₹699 — Basic + Google Maps + Contact Form</p>
+    </div>
+
+    <div class="box1">
+      <h2><i class="fas fa-gem"></i> Pro</h2>
+      <p>₹999 — Standard + Online Order Setup + 1 month support</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- 🔹 Google Site vs Professional Website Section -->
+  <section class="section" style="background: linear-gradient (135 deg, #f3f4f6, #ffffff); border-radius:15px; box-shadow:0 4px 10px rgba (0,0,0,0.1);">
     <h2 style="text-align:center; color:#1a237e;">Google Site की बजाय Professional Website क्यों बनवाएं?</h2>
     <p style="text-align:center; color:#444; max-width:700px; margin:0 auto 30px;">
       आजकल बहुत लोग Google Sites से वेबसाइट खुद बना लेते हैं, लेकिन Professional Website आपके बिज़नेस को तेजी से बढ़ाने, Google पर दिखाने और ग्राहकों का भरोसा जीतने में मदद करती है।
@@ -82,34 +142,78 @@
     </table>
 
     <div style="text-align:center; margin-top:40px;">
-      <img src="vijendra2.jpg" alt="Vijendra Kumar" style="width:150px; height:150px; border-radius:50%; box-shadow:0 4px 8px rgba(0,0,0,0.2); object-fit:cover;">
-      <h3 style="margin-top:10px; color:#1a237e;">VIJENDRA KUMAR</h3>
-      <p style="color:#2b2b2b;">Website Developer | Jobner, Jaipur</p>
-    </div>
+  <div style="
+      width:150px; 
+      height:150px; 
+      margin:auto; 
+      border-radius:50%; 
+      overflow:hidden; 
+      transition:0.4s; 
+      box-shadow:0 4px 8px rgba (0,0,0,0.2);
+    " 
+    onmouseover="this.style.transform='scale(1.08)'; this.style.boxShadow='0 6px 15px rgba(0,0,0,0.4)'"
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'"
+  >
+    <img src="vijendra2.jpg" alt="Vijendra Kumar" 
+      style="width:100%; height:100%; object-fit:cover;">
+  </div>
 
-    <div id="contact" style="margin-top:40px; text-align:center;">
-      <h3 style="color:#000000; margin-bottom:15px;">संपर्क करें</h3>
-<!-- modify this form HTML and place wherever you want your form -->
-<form action="https://formspree.io/f/movkrbdr" method="POST" style="max-width:500px; margin:auto; text-align:left;">
-        <label>नाम:</label><br>
-        <input type="text" name="name" required><br>
+  <h3 style="margin-top:10px; color:#1a237e;">VIJENDRA KUMAR</h3>
+  <p style="color:#2b2b2b;">Website Developer | Jobner, Jaipur</p>
+</div>
 
-        <label>मोबाइल नंबर:</label><br>
-        <input type="text" name="phone" required><br>
+<div id="contact" style="margin-top:40px; text-align:center;">
+  <h3 style="color:#000000; margin-bottom:15px;">संपर्क करें</h3>
 
-        <label>संदेश:</label><br>
-        <textarea name="message" rows="4" required></textarea><br>
+  <form action="https://formspree.io/f/movkrbdr" method="POST" 
+        style="max-width:500px; margin:auto; text-align:left;">
 
-        <button type="submit">संदेश भेजें</button>
-      </form>
-    </div>
+    <label>नाम:</label><br>
+    <input type="text" name="name" required 
+      style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px;">
+
+    <label>मोबाइल नंबर:</label><br>
+    <input type="text" name="phone" required
+      style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px;">
+
+    <label>संदेश:</label><br>
+    <textarea name="message" rows="4" required
+      style="width:100%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:5px;"></textarea>
+
+    <button type="submit" 
+      style="
+        width:100%; 
+        padding:12px; 
+        background:#1a237e; 
+        color:white; 
+        border:none; 
+        border-radius:5px; 
+        cursor:pointer; 
+        font-size:16px; 
+        transition:0.3s;
+      "
+      onmouseover="this.style.background='#3949ab'; this.style.transform='scale(1.03)'"
+      onmouseout="this.style.background='#1a237e'; this.style.transform='scale(1)'"
+    >संदेश भेजें</button>
+  </form>
+</div>
+
   </section>
 
   <section class="section">
-    <h2>संपर्क करें</h2>
-    <p>WhatsApp: <a href="https://wa.me/8000734825">+91 80007 34825</a></p>
-    <p>ई-मेल: <a href="mailto:vijendrakumar@email.com">vijendrakumar@email.com</a></p>
-  </section>
+  <h2><i class="fas fa-phone"></i> संपर्क करें</h2>
+
+  <p><i class="fab fa-whatsapp"></i> WhatsApp: 
+    <a href="https://wa.me/8000734825">+91 80007 34825</a>
+  </p>
+
+  <p><i class="fas fa-envelope"></i> ई-मेल: 
+    <a href="mailto:vijendrmarwal0@gmail.com">
+      vijendrmarwal0@gmail.com
+    </a>
+  </p>
+</section>
+
 
   <footer>
     © <span id="yr"></span> Website Development | Jobner, Jaipur
